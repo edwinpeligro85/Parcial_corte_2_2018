@@ -18,6 +18,6 @@ public class punto_2
             }
             System.out.println();  //Imprimi un salto de linea.
         }
-            
+        
     }
 }
