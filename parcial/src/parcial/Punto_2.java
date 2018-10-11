@@ -1,6 +1,6 @@
 package parcial;
 
-public class punto_2 
+public class Punto_2 
 {
 
     public static void main(String[] args) 
