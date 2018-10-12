@@ -3,7 +3,7 @@ package parcial;
 public class punto_5 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Aqui inicia el codigo
      //Declaro una variable "suma" que guarda el resultado de la suma.
      int suma = 0;
      //Creo una matriz de numeros enteros 10*10.
