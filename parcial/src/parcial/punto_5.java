@@ -3,7 +3,7 @@ package parcial;
 public class punto_5 {
 
     public static void main(String[] args) {
-        // Aqui inicia el codigo
+        //Inicio del programa.
      //Declaro una variable "suma" que guarda el resultado de la suma.
      int suma = 0;
      //Creo una matriz de numeros enteros 10*10.
@@ -27,4 +27,4 @@ public class punto_5 {
         //Imprimo el resultado de la suma.
         System.out.println("\n \t\t\t Suma de la diagonal pribcipal: "+suma);
     }
-}
+}//Fin del prograna.
