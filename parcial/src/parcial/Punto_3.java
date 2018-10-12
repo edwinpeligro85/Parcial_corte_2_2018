@@ -3,15 +3,22 @@ package parcial;
 public class Punto_3 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Aqui inicia el codigo:
         
         String nombre = "edwin";
-        String color = "amarillo";
-        String objeto = "lapiz";
+        String color = "rojo";
+        String obj = "zapato";
         int edad = 18;
-        System.out.println(nombre+" de "+edad+" años entró con paso firme a la tienda y pidió que le mostraran el mejor "+objeto+" que tuvieran. "
-                + "El tendero le presento un "+objeto+" de color "+color+". , solitaria, brillaba como un diminuto sol resplandeciente."
-                + " El muchacho contempló el anillo y con una sonrisa lo aprobó.");
+        
+            System.out.println("Si  alguien supiera en qué piensa \n"
+                + ""+nombre+" cuando entrecierra  los ojos, a \n"
+                + "los "+edad+" años de edad, inclina un poco \n"
+                + "la cabeza hacia  abajo, hace chasquear los \n"
+                + "dedos, tiene un "+obj+" de color "+color+",\n"
+                + "curva hacia arriba  las cejas esta mañana,\n"
+                + "sonríe y aspira  hondo, preparándose para \n"
+                + "algo, juntando la fuerza necesaria para en\n"
+                + "el momento siguiente, actuar.");
     }
     
 }
