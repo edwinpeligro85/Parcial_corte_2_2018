@@ -6,7 +6,7 @@ public class Punto_3 {
         //Inicio del progra:
        
         String nombre,color,objeto;//Declaro variables tipo String.
-        String adj = "una";//Este va hacer el tono del objeto.
+        String adj = "una";//Este va hacer el adjetivo del objeto.
         
         //creo un objeto tipo Scaner(datos) para tomar por teclado los datos.
         Scanner datos = new Scanner(System.in);
@@ -24,9 +24,9 @@ public class Punto_3 {
         System.out.println("Ingrese una edad:");
             int edad = datos.nextInt();
             
-            int pos = objeto.length()-1;//Resto uno para obtener el índice del ultimo caracter.
-            char fin = objeto.charAt(pos);//Obtengo el carácter de la unltima posición.
-            int pos2 = objeto.length()-2;//Resto dos para obtener el índice del penultimo caracter.
+            int pos = objeto.length()-1;    //Resto uno para obtener el índice del ultimo caracter.
+            char fin = objeto.charAt(pos);  //Obtengo el carácter de la unltima posición.
+            int pos2 = objeto.length()-2;   //Resto dos para obtener el índice del penultimo caracter.
             char fin2 = objeto.charAt(pos2);//Obtengo el carácter de la penunltima posición.
                 
                 //Condición para cambiar el tono del objeto.
